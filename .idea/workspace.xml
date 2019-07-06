@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66bb3270-9c42-498f-b69c-bf28e6ef3bb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson11/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/src/Unit.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/src/Unit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5/polymorphism.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/polymorphism.php" afterDir="false" />
-    </list>
+    <list default="true" id="66bb3270-9c42-498f-b69c-bf28e6ef3bb7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,21 +61,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="php-oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-oop" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -113,12 +100,21 @@
       <workItem from="1561334525650" duration="8304000" />
       <workItem from="1561865508855" duration="4144000" />
       <workItem from="1561907532527" duration="2511000" />
-      <workItem from="1562430896390" duration="411000" />
+      <workItem from="1562430896390" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15370000" />
+    <option name="totallyTimeSpent" value="15574000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -132,10 +128,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32847896" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32739726" />
       <window_info anchor="bottom" x="57" y="102" width="613" height="203" id="Terminal" order="10" type="FLOATING" weight="0.32847896" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -146,6 +142,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lesson4/interaction.php">
