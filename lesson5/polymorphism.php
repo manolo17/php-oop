@@ -6,8 +6,11 @@ function show($message)
 }
 
 abstract class Unit {
-    protected $hp = 40;
+    protected $hp = 100;
     protected $name;
+    protected $damage = 20;
+    protected $armor;
+
 
     public function __construct($name)
     {
@@ -35,12 +38,36 @@ abstract class Unit {
     {
         $this->hp = $this->hp - $this->absorbDamage($damage);
 
-        show("{$this->name} ahora tiene {$this->hp} puntos de vida");
+       if ( !$damage < 0 ) {
+
+           show("{$this->name} ahora tiene {$this->hp} puntos de vida");
+       }
+
 
         if ($this->hp <= 0) {
             $this->die();
         }
     }
+
+// implementado por manuel
+
+    public function setArmor(Armor $armor = null)
+    {
+        $this->armor = $armor;
+    }
+
+
+
+    protected function absorbDamage($damage)
+    {
+        if ($this->armor) {
+            $damage = $this->armor->absorbDamage($damage);
+        }
+
+        return $damage;
+    }
+
+//
 
     public function die()
     {
@@ -49,26 +76,21 @@ abstract class Unit {
         exit();
     }
 
-    protected function absorbDamage($damage)
+/*    protected function absorbDamage($damage)
     {
         return $damage;
-    }
+    } */
 }
 
 class Soldier extends Unit
 {
-    protected $damage = 40;
-    protected $armor;
+
 
     public function __construct($name)
     {
         parent::__construct($name);
     }
 
-    public function setArmor(Armor $armor = null)
-    {
-        $this->armor = $armor;
-    }
 
     public function attack(Unit $opponent)
     {
@@ -79,14 +101,14 @@ class Soldier extends Unit
         $opponent->takeDamage($this->damage);
     }
 
-    protected function absorbDamage($damage)
+   /* protected function absorbDamage($damage)
     {
         if ($this->armor) {
             $damage = $this->armor->absorbDamage($damage);
         }
 
         return $damage;
-    }
+    }*/
 }
 
 class Archer extends Unit
